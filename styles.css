@@ -1,0 +1,44 @@
+main{
+    text-align: center;
+}
+
+.content{
+    border: 2px solid black;
+    padding: 40px;
+    margin: 10px;
+    border-radius: 5px;
+    width: 250px;
+    text-align: center;
+}
+.papers
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content a{
+    color: black;
+    text-decoration: none;
+}
+
+.content a:hover{
+    color: #0000ff;
+    text-decoration: underline;
+}
+
+.lineupper{
+    text-align: center;
+    padding: 10px;
+}
+
+.validlinker{
+    color: black;
+    text-decoration: none;
+}
+
+.validlinker:hover{
+    color: #0000ff;
+    text-decoration: underline;
+}
